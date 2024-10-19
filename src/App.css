@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   margin-top: 0px;
-  background-color: #2c2c2c; /* Mantido o fundo preto */
+  background-color: #1f1f1f; /* Mantido o fundo preto */
   min-height: 100vh; /* Garante que o container ocupe toda a altura da tela */
 }
 
@@ -14,9 +14,16 @@
 }
 
 .logo {
-  margin-top: 200px;
+  margin-top: 100px;
   width: 80%;
   margin-bottom: 100px;
+}
+
+@media (max-width: 900px) {
+  .logo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 }
 
 h1 {
@@ -41,12 +48,16 @@ p {
 }
 
 /* Media query para dispositivos móveis */
-@media (max-width: 950px) {
+@media (max-width: 900px) {
   .social-logo {
     width: 50px; /* Tamanho maior para dispositivos móveis */
   }
 }
-
+@media (max-width: 700px) {
+  .social-logo {
+    width: 45x; /* Tamanho maior para dispositivos móveis */
+  }
+}
 .social-logo:hover {
   transform: scale(1.1); /* Efeito de hover para dar destaque */
 }
