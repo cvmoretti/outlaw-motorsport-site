@@ -16,7 +16,7 @@
 .logo {
   margin-top: 200px;
   width: 80%;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -31,14 +31,20 @@ p {
 
 .logos {
   margin-top: 20px;
-  margin-bottom: 200px;
-
+  margin-bottom: 50px;
 }
 
 .social-logo {
   width: 30px; /* Ajuste conforme o tamanho necessário */
-  margin: 0 10px;
+  margin: 0 20px;
   transition: transform 0.3s;
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 768px) {
+  .social-logo {
+    width: 50px; /* Tamanho maior para dispositivos móveis */
+  }
 }
 
 .social-logo:hover {
