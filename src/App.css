@@ -41,7 +41,7 @@ p {
 }
 
 /* Media query para dispositivos móveis */
-@media (max-width: 768px) {
+@media (max-width: 950px) {
   .social-logo {
     width: 50px; /* Tamanho maior para dispositivos móveis */
   }
