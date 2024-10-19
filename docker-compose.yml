@@ -2,7 +2,7 @@ version: '3'
 services:
   web:
     build:
-      context: .
+      context: https://github.com/cvmoretti/outlaw-motorsport-site
       dockerfile: Dockerfile
     ports:
       - "3000:80"
